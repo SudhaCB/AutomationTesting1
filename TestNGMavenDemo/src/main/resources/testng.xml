@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite">
+
+
+	<Test name ="My hub spot test chrome" >
+	<!-- <Parameter name="browser" value="chrome"></Parameter> -->
+		<Classes>
+			<class name ="com.MyTests.LoginTest"></class>
+		</Classes>
+	</Test>
+
+	<Test name ="My hub spot test ff" > 	
+	<!-- <Parameter name="browser" value="ff"></Parameter> -->
+		<Classes>
+			<class name ="com.MyTests.LoginTest"></class>
+		</Classes>
+	</Test>
+
+</suite>
